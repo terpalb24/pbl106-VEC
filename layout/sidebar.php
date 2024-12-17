@@ -63,7 +63,7 @@
         </div>
         <div class="contact-info">
           <p class="contact-title">Email</p>
-          <a href="mailto:vec@gmail.com" class="contact-link">vec@gmail.com</a>
+          <a href="mailto:vec.pbl@gmail.com" class="contact-link">vec.pbl@gmail.com</a>
         </div>
       </li>
       <li class="contact-item">

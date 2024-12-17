@@ -48,12 +48,12 @@
 
           <section class="about-text">
             <p>
-            Manage your presence easily
-            with our user-friendly platform.
+            Simplify your event attendance process with our intuitive and reliable solution.
+            Designed for ease of use, it ensures a smooth experience for both organizers and participants.
             </p>
 
             <p>
-            If you need help, our team is ready to support.
+            Our support team is always on hand to help you with any questions or issues, ensuring your event runs efficiently and stress-free.
             </p>
           </section>
 
@@ -116,7 +116,7 @@
 
                   <p class="service-item-text">
                   Can filter absence groups.
-                  Can recap attendance data into PDF/Excel format.
+                  Can recap attendance data into Excel format.
                   </p>
                 </div>
               </li>
