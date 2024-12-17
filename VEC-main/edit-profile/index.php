@@ -2,6 +2,7 @@
   $active = 'buat-acara'; 
   include '../service/autoload.php';
   check_login();
+  $direct = "../dashboard/logout.php";
   $logsms1 = "";
   $logsms = "";
 ?>
