@@ -29,13 +29,13 @@
 <br />
 <div align="center">
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Join us to enhance your attendance event management experience!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="#">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="mailto:vec.pbl@gmail.com">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="mailto:vec.pbl@gmail.com">Request Feature</a>
   </p>
 </div>
 
@@ -69,25 +69,25 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://pbl-vec.my.id)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Virtual Event Check-in (VEC) is a digital solution designed to facilitate the recording of participant attendance at various types of online events such as webinars, workshops, seminars, and conferences. This application allows event organizers to manage participant attendance effectively and efficiently.s
 
-Here's why:
+Our Application Features :
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
+- Register & Login
+- Event Management
+- Participant Attendance
+- Attendance Management
+- Account Settings
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Virtual Event Check-in (VEC) provides practical features for event organizers. The application can be accessed online through a web browser. Event organizers can send a registration link for participant attendance through WhatsApp, Email, or Social Media platforms. Additionally, the application also provides a feature to automatically generate attendance reports that can be easily downloaded in Excel format.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This is the language, tools, framework and libraries used in creating the Virtual Event Check-in application.
 
 - [![HTML5][HTML5-shield]][HTML5-url]
 - [![PHP][PHP-shield]][PHP-url]
@@ -105,88 +105,76 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+There are several steps that must be taken to run the Virtual Event Check-in application.
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- Install Web Server
+  - Windows
+    You can use XAMPP to run web server.
+    ```sh
+    https://www.apachefriends.org/download.html
+    ```
+  - Ubuntu
+    Install Apache2 for run http port(80).
+    ```sh
+    sudo apt update
+    sudo apt install apache2
+    ```
+    Install PHP
+    ```sh
+    sudo apt install php
+    ```
+    Install MySQL
+    ```sh
+    sudo apt install mysql-server
+    ```
+    _To configure, please refer to the [Documentation](https://ubuntu.com/server/docs/install-and-configure-a-mysql-server)_
+    Install PhpMyAdmin
+    ```sh
+    sudo apt install phpmyadmin
+    ```
+    _To configure, please refer to the [Documentation](https://ubuntu.com/server/docs/how-to-install-and-configure-phpmyadmin)_
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_To configure the application, follow the steps below._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/vec-pbl/VEC.git
    ```
-3. Install NPM packages
+2. Extract the files from the your webserver directory.
    ```sh
-   npm install
+   ex for ubuntu : /var/www/html
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
-5. Change git remote url to avoid accidental pushes to base project
+3. Run your webserver
+   Check your apache2 status.
    ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+   sudo systemctl status apache2
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-  - [ ] Chinese
-  - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+4. Open your browser and type
+   ```sh
+   http://localhost/phpmyadmin/
+   ```
+   Login in phpmyadmin username default "root" and no password.
+5. Create a new database and name it `ltewezcf_vec`
+6. Click database `ltewezcf_vec`, and import `ltewezcf_vec.sql` from folder.
+7. Done, You can use the application in
+  ```sh
+   http://localhost/
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ### Top contributors:
 
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
+<a href="https://github.com/vec-pbl/VEC/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=vec-pbl/VEC" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -203,9 +191,9 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Email - vec.pbl@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/vec-pbl/VEC](https://github.com/vec-pbl/VEC)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -237,8 +225,8 @@ Use this space to list resources you find helpful and would like to give credit 
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: htthttps://www.javascript.com/ps://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://pbl-vec.my.id/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: assets/img/readme.png
