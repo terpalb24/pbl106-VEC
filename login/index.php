@@ -120,12 +120,12 @@ if(isset($_POST['login'])){
                 <ion-icon name="checkmark-circle-outline"></ion-icon>
                 <span>Login</span>
               </button>
+            </div>
+          </form>
               <button onclick="window.location.href='../'"class="form-btn1" type="submit" enabled data-form-btn>
                 <ion-icon name="arrow-back-outline"></ion-icon>
                 <span>Back</span>
               </button>
-            </div>
-          </form>
         </section>
       </article>
     </div>
