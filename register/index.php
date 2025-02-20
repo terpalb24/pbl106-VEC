@@ -12,7 +12,7 @@ if(isset($_POST['register'])){
         $errors[] = 'Username cannot be empty!';  
     } elseif(strlen($username) > 50){  
         $errors[] = 'Username character max is 50!';  
-    } elseif(strlen($username) < 3){  
+    } elseif(strlen($username) < 1){  
         $errors[] = 'Username must be at least 3 characters long!';  
     }  
     if(empty($password)){  

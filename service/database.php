@@ -2,7 +2,7 @@
 
     $hostname = "localhost";
     $username = "ltewezcf_vec";
-    $password = "Bima@1123000";
+    $password = "Vec@12345";
     $database_name = "ltewezcf_vec";
 
     $db = mysqli_connect($hostname, $username, $password, $database_name);

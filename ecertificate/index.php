@@ -1,4 +1,5 @@
 <?php
+    error_reporting(E_ALL ^ (E_NOTICE | E_WARNING | E_DEPRECATED));
     include "../service/autoload.php";
     try {
         $font = __DIR__."/Belleza-Regular.ttf";
@@ -61,6 +62,7 @@
     } catch (exception $e) {
         var_dump($e->getMessage());
     }
+    
 ?>
 
 <!DOCTYPE html>
