@@ -168,11 +168,20 @@ _To configure the application, follow the steps below._
 
 <!-- CONTRIBUTING -->
 
-### Top contributors:
+### Contributors:
 
-<a href="https://github.com/vec-pbl/VEC/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=vec-pbl/VEC" />
-</a>
+Project Manager:
+
+- 222332 - Iqbal Afif, A.Md.Kom
+
+Team Member:
+
+- 4342401035 - Whelmyran Bima Adhienirma
+- 4342401031 - Muhammad Ariq Akbari Ashar
+- 4342401036 - Andri Putra Desyandra Siregar
+- 4342401038 - Veny Isnaini Prastia
+- 4342401053 - Hasan Abdurrahman
+- 4342401055 - Naomi Anisa Yulia Siahaan
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
