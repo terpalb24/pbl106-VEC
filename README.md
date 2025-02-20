@@ -199,9 +199,9 @@ Distributed under the Unlicense License.
 
 Email - vec.pbl@gmail.com
 
-Project Link: [https://github.com/vec-pbl/VEC](https://github.com/vec-pbl/VEC)
+Project Link: [https://github.com/terpalb24/pbl106-VEC](https://github.com/terpalb24/pbl106-VEC)
 
-Site URL: [https://pbl-vec.my.id/](http://pbl-vec.my.id/)
+Site URL: [https://vec.pbl.web.id/](http://vec.pbl.web.id/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
