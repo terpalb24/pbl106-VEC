@@ -136,8 +136,8 @@
                 </table>
 
                 <div class="btnreg">
-                    <p>Link Absent: <a href="absent.php?id=<?php echo $data_acara['id_acara']; ?>">https://pbl-vec.my.id/absent.php?id=<?php echo $data_acara['id_acara']; ?></a></p>
-                    <input type="hidden" id="qrText" value="https://pbl-vec.my.id/absent.php?id=<?php echo $data_acara['id_acara']; ?>" />
+                    <p>Link Absent: <a href="absent.php?id=<?php echo $data_acara['id_acara']; ?>">https://vec.pbl.web.id/absent.php?id=<?php echo $data_acara['id_acara']; ?></a></p>
+                    <input type="hidden" id="qrText" value="https://vec.pbl.id/absent.php?id=<?php echo $data_acara['id_acara']; ?>" />
                 </div>
                 <div id="imgBox">
                     <img src="" id="qrImage">
